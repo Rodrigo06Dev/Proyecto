@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>	
+
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">	
+	<title>HTML5</title>	
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="JS/main.js"></script>
+</head>
+
+<body>
+
+<div id="contenedor">
+		<nav>
+			
+			<font color="white" size="8px" face="chiller">JUEGO DE PIEDRA - PAPEL - TIJERA</font>
+			
+		</nav>
+
+		<header>
+			<div id=header1>
+				<font color="white" size="5px" face="chiller">VOLVER A JUGAR</font><br>
+				<audio id="sonido2"> <source src="sound/yoshi.mp3"></source><</audio>>
+				<input  name="btnstar" type="image" onclick="sonido2.play(), reiniciar()" value="JUGAR NUEVAMENTE" id="star" src="img/estrella.gif">
+
+			</div>
+			<div id=header2>
+				<audio id="sonido"> <source src="sound/jump.mp3"></source><</audio>>		
+				<input  name="btnpapel" type="image" onclick="sonido.play(), mostrar(this.id)"  id="btn1" src="img/papel.png">
+				<input  name="btnpiedra" type="image" onclick="sonido.play(), mostrar(this.id)" id="btn2" src="img/piedra.png">
+				<input  name="btntijera" type="image" onclick="sonido.play(), mostrar(this.id)" id="btn3" src="img/tijera.png">
+			</div>
+  		</header>
+
+		<aside>	
+			<div id="lado1">
+				<input  name="btnplayer1" type="image" id="btnoper" src="img/p11.png"><br>
+				<font color="white" size="7px" face="chiller">PLAYER 1</font><br>
+				<font color="white" size="7px" face="chiller">TU TURNO!!</font>
+			</div>
+			<div id="lado2">
+				<input  name="btnplayer2" type="image" id="btnoper" src="img/p22.png"><br>
+				<font color="white" size="7px" face="chiller">PLAYER 2</font><br>
+				<font color="white" size="7px" face="chiller">TU TURNO!!</font>
+			</div>
+			<div id="lado3">
+				<input  name="btnplayer2" type="image" id="btnoper" src="img/empate.png"><br>
+				<font color="white" size="7px" face="chiller">DRAW!!</font>
+			</div>
+			<div id="lado4">
+				<input  name="btnplayer2" type="image" id="btnoper" src="img/j1.png"><br>
+				<font color="white" size="7px" face="chiller">WINNER!!</font>
+			</div>
+			<div id="lado5">
+				<input  name="btnplayer2" type="image" id="btnoper" src="img/j2.png"><br>
+				<font color="white" size="7px" face="chiller">WINNER!!</font>
+			</div>
+			
+			
+		</aside>
+
+  		<section>
+			<div id="seccion"></div>
+			<div id="seccion2">
+				<img src="img/meta1.gif" width="500" height="300">
+			</div>
+			<div id="seccion3">
+				<img src="img/draw.gif" width="500" height="300">
+			</div>
+			
+		</section>
+
+		<footer>
+			
+		</footer>
+</div>
+</body>
+</html>

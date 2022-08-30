@@ -1,0 +1,122 @@
+body{
+	background-color: black;
+	margin:0;
+}
+
+#contenedor{
+	margin: auto;
+	width: 900px;
+}
+
+
+#btnoper{
+	background-color: black;
+	border-radius:25px;
+	
+}
+/*#btnoper2{
+	background-color: black;
+	border-radius:25px;
+	width: 200px;
+}*/
+
+
+input{
+	background-color: yellow;
+	border-radius:25px;
+	color: blue;
+	height: 175px;
+	width: 175px;
+	margin: 25px;
+	transition: all 0.3s;
+}
+
+input:hover{
+	background-color: skyblue;
+	color:yellow;
+	transform: scale(0.8);
+	font-size: 20px;
+}
+
+
+nav{
+	background-color: black;
+	width: 900px;
+	height: 100px;
+	text-align: center;
+	text-shadow: 
+}
+
+header{
+	background-color: black;	
+	width: 900px;
+	height: 250px;
+	text-align: center;
+}
+#header1{
+	text-align: center;
+	display: none;
+}
+#header2{
+	text-align: center;
+	display: block;
+}
+
+aside{
+	background-color: black;
+	width: 300px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-size: larger;
+	font-style: italic;
+}
+#lado1{
+	text-align: center;
+	display: block;
+}
+#lado2{
+	text-align: center;
+	display: none;
+}
+#lado3{
+	text-align: center;
+	display: none;
+}
+#lado4{
+	text-align: center;
+	display: none;
+}
+#lado5{
+	text-align: center;
+	display: none;}
+
+section{
+	background-color: white;
+	width: 600px;
+	height: 400px;
+	float: left;
+	text-decoration-color: white;
+	font-size: xx-large;
+	font-style: italic;
+
+}
+#seccion{
+	text-align: center;
+	display: none;
+}
+#seccion2{
+	text-align: center;
+	display: none;
+}
+#seccion3{
+	text-align: center;
+	display: none;
+}
+
+footer{
+	background-color: black;
+	width: 900px;
+	height: 100px;
+	float: left;
+}
